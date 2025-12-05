@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class stringexmple {
     public static void main(String args[]){
     //string is immutable- we cant change or modify the actual value of the string variable
@@ -10,7 +9,6 @@ public class stringexmple {
     System.out.println(s1==s2);
     }
 }
-=======
 public class stringexmple {
     public static void main(String args[]){
     //string is immutable- we cant change or modify the actual value of the string variable
@@ -22,4 +20,3 @@ public class stringexmple {
     System.out.println(s1==s2);
     }
 }
->>>>>>> 8b1d03ff8c4aace405db3ae50f07d3410fc62df9

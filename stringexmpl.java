@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class stringexmpl{
     public static void main(String args[]){
         //string example-stores stream of characters
@@ -11,7 +10,7 @@ class stringexmpl{
         System.out.println(name.concat(" Perka"));
 
     }
-=======
+}
 class stringexmpl{
     public static void main(String args[]){
         //string example-stores stream of characters
@@ -24,5 +23,5 @@ class stringexmpl{
         System.out.println(name.concat(" Perka"));
 
     }
->>>>>>> 8b1d03ff8c4aace405db3ae50f07d3410fc62df9
+
 }
