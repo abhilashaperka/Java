@@ -16,7 +16,7 @@ class Child extends Parent{
     }
     public Child(int a){
         
-        //super(a);//if we pass a parameter in super methos thn only it will call the parameterized constructor of the parent class otherwise it will call default constructor
+        //super(a);//if we pass a parameter in super method then only it will call the parameterized constructor of the parent class otherwise it will call default constructor
         this();//This can be used to call the parameterized constructor of the same class
         System.out.println("it's a child class parameterized constructor");
     }
