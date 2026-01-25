@@ -6,6 +6,9 @@ public class WrapperClasses {
         System.out.println(num1);
         int num2=num1.intValue();//unboxing - converting the wrapperclass object into primitive data type              
         System.out.println(num2);
+        String str="5";
+        int num3=Integer.parseInt(str);
+        System.out.println(num3*5);
     }
     
 }
