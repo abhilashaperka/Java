@@ -14,6 +14,7 @@ public class BufferedReaderEx {
         BufferedReader bf=new BufferedReader(in);
         int n=Integer.parseInt(bf.readLine());
         System.out.println(n);
+        bf.close();
 
     }
 }
