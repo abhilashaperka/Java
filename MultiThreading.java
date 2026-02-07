@@ -1,0 +1,46 @@
+class A extends Thread{
+    public void run(){
+        for(int i=0;i<=100;i++){
+            System.out.println("Hi..");
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+    }
+}
+class B extends Thread{
+    public void run(){
+        for(int i=0;i<=100;i++){
+            System.out.println("Helloo..");
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        }
+    }
+}
+public class MultiThreading {
+    public static void main(String args[]){
+        A obj=new A();
+        B obj2=new B();
+        System.out.println(obj.getPriority());
+        obj.start();
+        try {
+                Thread.sleep(5);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        obj2.start();
+        try {
+                Thread.sleep(5);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+    }
+}
