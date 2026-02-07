@@ -1,6 +1,6 @@
 class Counter{
     int count;
-    public void increment(){
+    public synchronized void increment(){//synchronized is used to call the method at a time 
         count++;
     }
 }
